@@ -1,0 +1,22 @@
+{
+  "npmScope": "test-other-builders",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "frontend-angular": {
+      "tags": []
+    },
+    "frontend-angular-e2e": {
+      "tags": [],
+      "implicitDependencies": ["frontend-angular"]
+    }
+  }
+}
