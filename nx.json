@@ -17,6 +17,13 @@
     "frontend-angular-e2e": {
       "tags": [],
       "implicitDependencies": ["frontend-angular"]
+    },
+    "frontend-react": {
+      "tags": []
+    },
+    "frontend-react-e2e": {
+      "tags": [],
+      "implicitDependencies": ["frontend-react"]
     }
   }
 }
